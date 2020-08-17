@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit_bios – Set BIOS setup attributes. &#8212; inspur 1.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="edit_boot_image – Set bmc boot image." href="edit_boot_image.html" />
+    <link rel="prev" title="edit_auto_capture – Set auto capture screen." href="edit_auto_capture.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="edit-bios-set-bios-setup-attributes">
+<span id="edit-bios-module"></span><h1>edit_bios – Set BIOS setup attributes.<a class="headerlink" href="#edit-bios-set-bios-setup-attributes" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#synopsis" id="id1">Synopsis</a></p></li>
+<li><p><a class="reference internal" href="#parameters" id="id2">Parameters</a></p></li>
+<li><p><a class="reference internal" href="#examples" id="id3">Examples</a></p></li>
+<li><p><a class="reference internal" href="#return-values" id="id4">Return Values</a></p></li>
+</ul>
+</div>
+<div class="section" id="synopsis">
+<h2><a class="toc-backref" href="#id1">Synopsis</a><a class="headerlink" href="#synopsis" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Set BIOS setup attributes on Inspur server.</p></li>
+</ul>
+</div>
+<div class="section" id="parameters">
+<h2><a class="toc-backref" href="#id2">Parameters</a><a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h2>
+<dl>
+<dt>attribute</dt><dd><p>BIOS setup option,Required when <em>file_url=None</em>.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>file_url</dt><dd><p>BIOS option file.attribute must be used with value,</p>
+<p>Mutually exclusive with fileurl format,”/directory/filename”.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>host</dt><dd><p>Specifies the DNS host name or address for connecting to the remote device over the specified transport.  The value of host is used as the destination address for the transport.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>password</dt><dd><p>Specifies the password to use to authenticate the connection to the remote device. If the value is not specified in the task, the value of environment variable <code class="docutils literal notranslate"><span class="pre">ANSIBLE_NET_PASSWORD</span></code> will be used instead.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>provider</dt><dd><p>A dict object containing connection details.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: dict</div>
+</div>
+<dl>
+<dt>host</dt><dd><p>Specifies the DNS host name or address for connecting to the remote device over the specified transport.  The value of host is used as the destination address for the transport.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>password</dt><dd><p>Specifies the password to use to authenticate the connection to the remote device. If the value is not specified in the task, the value of environment variable <code class="docutils literal notranslate"><span class="pre">ANSIBLE_NET_PASSWORD</span></code> will be used instead.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>username</dt><dd><p>Configures the username to use to authenticate the connection to the remote device. If the value is not specified in the task, the value of environment variable <code class="docutils literal notranslate"><span class="pre">ANSIBLE_NET_USERNAME</span></code> will be used instead.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>username</dt><dd><p>Configures the username to use to authenticate the connection to the remote device. If the value is not specified in the task, the value of environment variable <code class="docutils literal notranslate"><span class="pre">ANSIBLE_NET_USERNAME</span></code> will be used instead.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>value</dt><dd><p>BIOS setup option value,Required when <em>file_url=None</em>.</p>
+<div class="line-block">
+<div class="line"><strong>required</strong>: False</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="examples">
+<h2><a class="toc-backref" href="#id3">Examples</a><a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Bios test</span>
+  <span class="nt">hosts</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ism</span>
+  <span class="nt">collections</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">inspur.sm</span>
+  <span class="nt">connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">local</span>
+  <span class="nt">gather_facts</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">no</span>
+  <span class="nt">vars</span><span class="p">:</span>
+    <span class="nt">ism</span><span class="p">:</span>
+      <span class="nt">host</span><span class="p">:</span> <span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">ansible_ssh_host</span> <span class="cp">}}</span><span class="s">&quot;</span>
+      <span class="nt">username</span><span class="p">:</span> <span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">username</span> <span class="cp">}}</span><span class="s">&quot;</span>
+      <span class="nt">password</span><span class="p">:</span> <span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">password</span> <span class="cp">}}</span><span class="s">&quot;</span>
+
+  <span class="nt">tasks</span><span class="p">:</span>
+
+  <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Set</span><span class="nv"> </span><span class="s">bios</span><span class="nv"> </span><span class="s">setup&quot;</span>
+    <span class="nt">edit_bios</span><span class="p">:</span>
+      <span class="nt">attribute</span><span class="p">:</span> <span class="s">&quot;VMX&quot;</span>
+      <span class="nt">value</span><span class="p">:</span> <span class="s">&quot;Disable&quot;</span>
+      <span class="nt">provider</span><span class="p">:</span> <span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">ism</span> <span class="cp">}}</span><span class="s">&quot;</span>
+
+  <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Set</span><span class="nv"> </span><span class="s">bios</span><span class="nv"> </span><span class="s">setup&quot;</span>
+    <span class="nt">edit_bios</span><span class="p">:</span>
+      <span class="nt">attribute</span><span class="p">:</span> <span class="s">&quot;VMX&quot;</span>
+      <span class="nt">value</span><span class="p">:</span> <span class="s">&quot;Enable&quot;</span>
+      <span class="nt">provider</span><span class="p">:</span> <span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">ism</span> <span class="cp">}}</span><span class="s">&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="return-values">
+<h2><a class="toc-backref" href="#id4">Return Values</a><a class="headerlink" href="#return-values" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><dl>
+<dt>message</dt><dd><div class="line-block">
+<div class="line">Messages returned after module execution.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>returned</strong>: always</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>state</dt><dd><div class="line-block">
+<div class="line">Status after module execution.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>returned</strong>: always</div>
+<div class="line"><strong>type</strong>: str</div>
+</div>
+</dd>
+<dt>changed</dt><dd><div class="line-block">
+<div class="line">Check to see if a change was made on the device.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>returned</strong>: always</div>
+<div class="line"><strong>type</strong>: bool</div>
+</div>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">inspur</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quickstart</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../modules.html">Modules</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../modules.html#module-reference">Module reference</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ad_group_info.html">ad_group_info – Get active directory group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ad_info.html">ad_info – Get active directory information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adapter_info.html">adapter_info – Get adapter information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_ad_group.html">add_ad_group – Add active directory group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_ldap_group.html">add_ldap_group – Add ldap group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_ldisk.html">add_ldisk – Create logical disk.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_user.html">add_user – Create user.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add_user_group.html">add_user_group – Create user group.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="alert_policy_info.html">alert_policy_info – Get alert policy.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="audit_log_info.html">audit_log_info – Get BMC audit log information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="auto_capture_info.html">auto_capture_info – Get auto capture screen information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="backplane_info.html">backplane_info – Get disk backplane information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="backup.html">backup – Backup server settings.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bios_export.html">bios_export – Export BIOS config.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bios_import.html">bios_import – Import BIOS config.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bios_info.html">bios_info – Get BIOS setup.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bmc_info.html">bmc_info – Get BMC information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boot_image_info.html">boot_image_info – Get bmc boot image information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boot_option_info.html">boot_option_info – Get BIOS boot options.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_audit_log.html">clear_audit_log – Clear BMC audit log.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_event_log.html">clear_event_log – Clear event log.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clear_system_log.html">clear_system_log – Clear BMC system log.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_blackbox.html">collect_blackbox – Collect blackbox log.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="collect_log.html">collect_log – Collect logs.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="connect_media_info.html">connect_media_info – Get remote images redirection information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cpu_info.html">cpu_info – Get CPU information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="del_ad_group.html">del_ad_group – Delete active directory group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="del_ldap_group.html">del_ldap_group – Delete ldap group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="del_session.html">del_session – Delete session.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="del_user.html">del_user – Delete user.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="del_user_group.html">del_user_group – Delete user group.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dns_info.html">dns_info – Get dns information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_auto_screenshot.html">download_auto_screenshot – Download auto screenshots.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="download_manual_screenshot.html">download_manual_screenshot – Download manual screenshots.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ad.html">edit_ad – Set active directory information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ad_group.html">edit_ad_group – Set active directory group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_alert_policy.html">edit_alert_policy – Set alert policy.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_auto_capture.html">edit_auto_capture – Set auto capture screen.</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">edit_bios – Set BIOS setup attributes.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_boot_image.html">edit_boot_image – Set bmc boot image.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_boot_option.html">edit_boot_option – Set BIOS boot options.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_connect_media.html">edit_connect_media – Start/Stop virtual media Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_dns.html">edit_dns – Set dns information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_event_log_policy.html">edit_event_log_policy – Set event log policy.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_fan.html">edit_fan – Set fan information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_fru.html">edit_fru – Set fru settings.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ipv4.html">edit_ipv4 – Set ipv4 information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ipv6.html">edit_ipv6 – Set ipv6 information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_kvm.html">edit_kvm – Set KVM.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ldap.html">edit_ldap – Set ldap information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ldap_group.html">edit_ldap_group – Set ldap group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ldisk.html">edit_ldisk – Set logical disk.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_log_setting.html">edit_log_setting – Set bmc system and audit log setting.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_manual_capture.html">edit_manual_capture – Set manual capture screen.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_media_instance.html">edit_media_instance – Set Virtual Media Instance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ncsi.html">edit_ncsi – Set ncsi information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_network.html">edit_network – Set network information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_network_bond.html">edit_network_bond – Set network bond.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_network_link.html">edit_network_link – Set network link.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_ntp.html">edit_ntp – Set NTP.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_pass_user.html">edit_pass_user – Change user password.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_pdisk.html">edit_pdisk – Set physical disk.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_power_budget.html">edit_power_budget – Set power budget information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_power_restore.html">edit_power_restore – Set power restore information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_power_status.html">edit_power_status – Set power status information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_preserve_config.html">edit_preserve_config – Set preserve config.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_priv_user.html">edit_priv_user – Change user privilege.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_psu_config.html">edit_psu_config – Set psu config information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_psu_peak.html">edit_psu_peak – Set psu peak information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_restore_factory_default.html">edit_restore_factory_default – Set preserver config.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_service.html">edit_service – Set service settings.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_smtp.html">edit_smtp – Set SMTP information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_snmp.html">edit_snmp – Set snmp.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_snmp_trap.html">edit_snmp_trap – Set snmp trap.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_threshold.html">edit_threshold – Set threshold information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_uid.html">edit_uid – Set UID.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_user_group.html">edit_user_group – Set user group.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_virtual_media.html">edit_virtual_media – Set virtual media.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edit_vlan.html">edit_vlan – Set vlan information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="event_log_info.html">event_log_info – Get event log information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="event_log_policy_info.html">event_log_policy_info – Get event log policy information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fan_info.html">fan_info – Get fan information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fru_info.html">fru_info – Get fru information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fw_version_info.html">fw_version_info – Get firmware version information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hard_disk_info.html">hard_disk_info – Get hard disk information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="kvm_info.html">kvm_info – Get KVM information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ldap_group_info.html">ldap_group_info – Get ldap group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ldap_info.html">ldap_info – Get ldap information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ldisk_info.html">ldisk_info – Get logical disks information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="log_setting_info.html">log_setting_info – Get bmc log setting information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="media_instance_info.html">media_instance_info – Get Virtual Media Instance information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mem_info.html">mem_info – Get memory information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ncsi_info.html">ncsi_info – Get ncsi information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="network_bond_info.html">network_bond_info – Get network bond information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="network_info.html">network_info – Get network information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="network_link_info.html">network_link_info – Get network link information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntp_info.html">ntp_info – Get NTP information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcie_info.html">pcie_info – Get PCIE information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pdisk_info.html">pdisk_info – Get physical disks information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="power_budget_info.html">power_budget_info – Get power budget information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="power_consumption_info.html">power_consumption_info – Get power consumption information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="power_restore_info.html">power_restore_info – Get power restore information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="power_status_info.html">power_status_info – Get power status information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="preserve_config_info.html">preserve_config_info – Get preserve config information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="psu_config_info.html">psu_config_info – Get psu config information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="psu_info.html">psu_info – Get psu information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="psu_peak_info.html">psu_peak_info – Get psu peak information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="raid_info.html">raid_info – Get RAID/HBA card and controller information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_bmc.html">reset_bmc – BMC reset.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reset_kvm.html">reset_kvm – KVM reset.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="restore.html">restore – Restore server settings.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="self_test_info.html">self_test_info – Get self test information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sensor_info.html">sensor_info – Get sensor information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="server_info.html">server_info – Get server status information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="service_info.html">service_info – Get service information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="session_info.html">session_info – Get online session information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="smtp_info.html">smtp_info – Get SMTP information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="snmp_info.html">snmp_info – Get snmp get/set information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="snmp_trap_info.html">snmp_trap_info – Get snmp trap information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="system_log_info.html">system_log_info – Get BMC system log information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="temp_info.html">temp_info – Get temp information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="threshold_info.html">threshold_info – Get threshold information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uid_info.html">uid_info – Get UID information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="update_cpld.html">update_cpld – Update CPLD.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="update_fw.html">update_fw – Update firmware.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_group_info.html">user_group_info – Get user group information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="user_info.html">user_info – Get user information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="virtual_media_info.html">virtual_media_info – Get Virtual Media information.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="volt_info.html">volt_info – Get volt information.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Requirements</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../requirements.html">Requirements</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendices</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release_notes.html">Releases</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../modules.html">Modules</a><ul>
+      <li>Previous: <a href="edit_auto_capture.html" title="previous chapter">edit_auto_capture – Set auto capture screen.</a></li>
+      <li>Next: <a href="edit_boot_image.html" title="next chapter">edit_boot_image – Set bmc boot image.</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, ism.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/modules/edit_bios.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
