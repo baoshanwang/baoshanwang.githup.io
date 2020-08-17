@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="926f439d-09be-4f0d-a1a0-e333de2634c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_static/alabaster.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/language_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/underscore-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installation.html" beforeDir="false" afterPath="$PROJECT_DIR$/installation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ad_group_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ad_group_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ad_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ad_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/adapter_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/adapter_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/add_ad_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/add_ad_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/add_ldap_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/add_ldap_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/add_ldisk.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/add_ldisk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/add_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/add_user_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/add_user_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/alert_policy_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/alert_policy_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/audit_log_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/audit_log_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/auto_capture_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/auto_capture_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backplane_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backplane_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/bios_export.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/bios_export.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/bios_import.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/bios_import.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/bios_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/bios_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/bmc_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/bmc_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/boot_image_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/boot_image_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/boot_option_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/boot_option_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clear_audit_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/clear_audit_log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clear_event_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/clear_event_log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clear_system_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/clear_system_log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/collect_blackbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collect_blackbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/collect_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collect_log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/connect_media_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/connect_media_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cpu_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cpu_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/del_ad_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/del_ad_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/del_ldap_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/del_ldap_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/del_session.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/del_session.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/del_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/del_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/del_user_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/del_user_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dns_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dns_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/download_auto_screenshot.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/download_auto_screenshot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/download_manual_screenshot.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/download_manual_screenshot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ad.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ad_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ad_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_alert_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_alert_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_auto_capture.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_auto_capture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_bios.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_bios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_boot_image.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_boot_image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_boot_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_boot_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_connect_media.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_connect_media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_dns.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_dns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_event_log_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_event_log_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_fan.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_fan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_fru.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_fru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ipv4.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ipv4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ipv6.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ipv6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_kvm.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_kvm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ldap.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ldap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ldap_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ldap_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ldisk.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ldisk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_log_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_log_setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_manual_capture.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_manual_capture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_media_instance.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_media_instance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ncsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ncsi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_network.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_network.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_network_bond.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_network_bond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_network_link.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_network_link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_ntp.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_ntp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_pass_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_pass_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_pdisk.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_pdisk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_power_budget.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_power_budget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_power_restore.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_power_restore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_power_status.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_power_status.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_preserve_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_preserve_config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_priv_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_priv_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_psu_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_psu_config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_psu_peak.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_psu_peak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_restore_factory_default.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_restore_factory_default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_smtp.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_smtp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_snmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_snmp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_snmp_trap.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_snmp_trap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_threshold.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_threshold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_uid.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_uid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_user_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_user_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_virtual_media.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_virtual_media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/edit_vlan.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/edit_vlan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/event_log_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/event_log_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/event_log_policy_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/event_log_policy_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/fan_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/fan_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/fru_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/fru_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/fw_version_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/fw_version_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/hard_disk_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/hard_disk_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/kvm_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/kvm_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ldap_group_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ldap_group_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ldap_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ldap_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ldisk_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ldisk_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/log_setting_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log_setting_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/media_instance_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/media_instance_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mem_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mem_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ncsi_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ncsi_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/network_bond_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network_bond_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/network_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/network_link_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network_link_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ntp_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ntp_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pcie_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pcie_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pdisk_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pdisk_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/power_budget_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/power_budget_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/power_consumption_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/power_consumption_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/power_restore_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/power_restore_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/power_status_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/power_status_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/preserve_config_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/preserve_config_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/preserver_config_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/preserver_config_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psu_config_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psu_config_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psu_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psu_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/psu_peak_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psu_peak_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/raid_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/raid_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/reset_bmc.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/reset_bmc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/reset_kvm.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/reset_kvm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/restore.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/restore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/self_test_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/self_test_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sensor_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sensor_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/server_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/server_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/service_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/service_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/session_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/session_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/smtp_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/smtp_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/snmp_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/snmp_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/snmp_trap_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/snmp_trap_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system_log_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system_log_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/temp_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/temp_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/threshold_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/threshold_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uid_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/uid_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/update_cpld.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/update_cpld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/update_fw.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/update_fw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/user_group_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user_group_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/virtual_media_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/virtual_media_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/volt_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/volt_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart.html" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release_notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/release_notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.html" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gDk5RbMQfZhNVjklRsFsvoDShW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="926f439d-09be-4f0d-a1a0-e333de2634c0" name="Default Changelist" comment="" />
+      <created>1597656366132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597656366132</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="290" y="64" width="786" height="600" key="find.popup" timestamp="1597656394160">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="290" y="64" width="786" height="600" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597656394160" />
+  </component>
+</project>
